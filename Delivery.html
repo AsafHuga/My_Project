@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>The Pet House</title>
+    <link rel="icon" type="image/png" href="img/ICON.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/Delivery.css">
+</head>
+<body>
+<header>
+    <img src="img/TPH-LOGO3.png" class="social">
+    <ul>
+        <li><a href="#home" class="home">ראשי</a></li>
+        <li><a href="About.html">אודות</a></li>
+        <li><a href="adoptlist.html">אמץ בעל חיים</a></li>
+        <li><a href="AdoptionDay.html">התנדבות קרובה</a></li>
+        <li><a href="Register.html">הרשמה לאתר</a></li>
+        <li><a href="Delivery.html">מסירת בעל חיים לאימוץ</a></li>
+        <li><a href="Tips.html">הטיפים שלנו</a></li>
+    </ul>
+</header>
+<main>
+    <img src="img/FORM2_1.png" class="titlePic">
+    <form method=" POST" action="" enctype="">
+        <table align="center" dir="rtl">
+            <tr>
+                <td align="right">
+                    <label for="1">שם בעל חיים:</label>
+                </td>
+                <td>
+                    <input id=1 type="text" name="FirstName" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="2">סוג בעל חיים:</label>
+                </td>
+                <td>
+                    <input id=2 type="text" name="Type" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="3">גזע:</label>
+                </td>
+                <td>
+                    <input id=3 type="text" name="Race" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="4">גיל:</label>
+                </td>
+                <td>
+                    <input id=4 type="number" name="Age" max="20" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="5">מחוסן:</label>
+                </td>
+                <td>
+                    <input list="6" id="5" name="מחוסן" required>
+                    <datalist id="6">
+                        <option value="כן">
+                        <option value="לא">
+                        <option value="לא ידוע">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="6">מיקום בארץ:</label>
+                </td>
+                <td>
+                    <input id="6" type="text" name="Location" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="7">תמונה:</label>
+                </td>
+                <td>
+                    <input id="7" type="file" name="Photo" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="8">תיאור כללי:</label>
+
+                </td>
+                <td>
+        <textarea id="8" rows="5" cols="50" required>
+        </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit" class="regbtn">צרף בעל חיים</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</main>
+<footer>
+    <ul class="bottom" dir="rtl">
+        <li><a href="About.html">מי אנחנו?</a></li>
+        <li><a href="#home">צרו קשר</a></li>
+        <li><a href="#findapet">שיתופי פעולה</a></li>
+        <li><a href="#findapet">הצטרפו אלינו</a></li>
+    </ul>
+    <section dir="rtl">
+        <p class="bottomP">© 2018 כל הזכויות שמורות ל-The Pet House - עמותת המתנדבים למען בעלי החיים</p>
+    </section>
+</footer>
+</body>
+</html>

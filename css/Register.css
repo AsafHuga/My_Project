@@ -1,0 +1,35 @@
+@import url("index.css");
+
+.regbtn {
+    background-color: #000000;
+    font-family: Calibri, sans-serif;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 53px;
+    opacity: 0.75;
+}
+
+main {
+    height: 700px;
+}
+
+.regbtn:hover {
+    opacity: 1
+}
+
+.regTable {
+    width: 370px;
+
+}
+
+td {
+    height: 27px;
+    width: 140px;
+}
+
+input {
+    width: 170px;
+}

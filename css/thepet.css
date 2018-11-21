@@ -1,0 +1,109 @@
+@import url("index.css");
+
+    table{
+        position: relative;
+        top: 100px;
+        left: 25%;
+    }
+
+    td{
+        width: 150px;
+    }
+
+    .qua{
+        background-color: lightblue;
+    }
+
+
+    .tomerimg{
+        position: relative;
+        right: 25%;
+        top: -50px;
+    }
+
+h2{
+    position: relative;
+    right: 30%;
+}
+
+    .adpbtn{
+        position: relative;
+        left:-200px;
+        top: -150px;
+        display: inline-block;
+        background-color: #F67B29;
+        font-family: Calibri, sans-serif;
+        font-size: medium;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        width: 170px;
+        height: 30px;
+    }
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 620px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #7194ed;
+    opacity: 0.85;
+    overflow: auto;
+    margin: 0;
+    left: 50%;
+}
+
+li {
+    float: right;
+    width: 170px;
+}
+
+li a.home {
+    background-color: #4e55ed;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    background-color: #7194ed;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+}
+
+li a:hover {
+    background-color: #526ded;
+}
+
+main {
+    background-color: #f8f8ff;
+    font-family: Calibri Light, sans-serif;
+    font-weight: bold;
+    height: 700px;
+}
+
+footer {
+    height: 250px;
+    background: rgba(197, 195, 199, 0.29);
+    text-align: center;
+    position: relative;
+    background-image: url("../img/TPHF.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.bottomP {
+    font-family: Calibri Light, sans-serif;
+    bottom: 0;
+    right: 37%;
+    margin: 0;
+    position: absolute;
+
+}

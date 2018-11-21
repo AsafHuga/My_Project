@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f8ff;
+  font-family: Calibri Light, sans-serif;
+  font-weight: bold;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.regbtn {
+  background-color: #00000;
+  font-family: Calibri, sans-serif;
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 53px;
+  opacity: 0.75;
+}
+
+.regbtn:hover {opacity: 1};
+table {
+  width: 270px;
+
+}
+
+td {
+  height: 27px;
+  width: 140px;
+}
+
+input {
+  width: 170px;
+}

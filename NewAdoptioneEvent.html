@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>The Pet House</title>
+    <link rel="icon" type="image/png" href="pic/ICON.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/NewAdoptionEvent.css">
+</head>
+<body>
+<header>
+    <img src="pic/TPH-LOGO3.png" class="social">
+    <ul>
+        <li><a href="#home" class="home">ראשי</a></li>
+        <li><a href="About.html" target="iframBox">אודות</a></li>
+        <li><a href="adoptlist.html">אמוץ בעל חיים</a></li>
+        <li><a href="AdoptionDay.html">התנדבות קרובה</a></li>
+        <li><a href="Register.html" target="iframBox">הרשמה לאתר</a></li>
+        <li><a href="Delivery.html" target="iframBox">מסירת בעל חיים לאימוץ</a></li>
+        <li><a href="Tips.html" target="iframBox">הטיפים שלנו</a></li>
+    </ul>
+</header>
+<main>
+    <form method="post" action="" enctype="">
+        <table dir="rtl" align="center">
+            <tr>
+                <td>
+                    <label for="0">אימייל</label>
+                </td>
+                <td>
+                    <input id =0 type="email" name="Email" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="1">שם המקום:</label>
+                </td>
+                <td>
+                    <input id =1 type="text" name="Name of Place" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="2">עיר:</label>
+                </td>
+                <td>
+                    <input id="2" type="text" name="City" required/>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for = "3">רחוב:</label>
+                </td>
+                <td>
+                    <input id = "3" type="text" name="street" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="4">מספר מקסימלי של אנשים:</label>
+                </td>
+                <td>
+                    <input id = "4" type="number" name="Capacity" min="1" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="5">מספר מקסימלי של בע"ח:</label>
+                </td>
+                <td>
+                    <input id = "5" type="number" name="Capacity" min="1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for ="6">שעת פתיחה:</label>
+                </td>
+                <td>
+                    <input id="6" type="time" name="OpenHours" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for ="7">שעת סגירה:</label>
+                </td>
+                <td>
+                    <input id="7" type="time" name="ClosingHour" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="8">מידע נוסף:</label>
+
+                </td>
+                <td>
+                       <textarea id="8" rows="5" cols="50">
+                      </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button onclick ="myFunction()" type="submit" class="regbtn">הגש בקשה להקמת אירוע</button>
+                    <script>
+                      function myFunction()
+                      {
+                        if(isEmpty() == true)
+                        {
+                          alert("הבקשה נשלחה, תשובה תתקבל במייל בהקדם האפשרי");
+                        }
+                      }
+                      function isEmpty() {
+                        var a=document.getElementById(0).value;
+                        var b=document.getElementById(1).value;
+                        var c=document.getElementById(2).value;
+                        var d=document.getElementById(3).value;
+                        var e=document.getElementById(4).value;
+                        var f=document.getElementById(5).value;
+                        var g=document.getElementById(6).value;
+                        var h=document.getElementById(7).value;
+                        if (a == null || a=="",b == null || b=="",c ==null || c=="",d==null || d=="",e==null || e=="",f==null || f=="",g==null || g=="",h==null || h=="")
+                        {
+                          alert("אנא מלא את כלל הפרטים הרלוונטים");
+                          return false;
+                        }
+                        else{
+                          return true;
+                        }
+                      }
+                    </script>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <br>
+    <br>
+</main>
+<footer>
+    <ul class="bottom" dir="rtl">
+        <li><a href="About.html" target="iframBox">מי אנחנו?</a></li>
+        <li><a href="#home">צרו קשר</a></li>
+        <li><a href="#findapet">שיתופי פעולה</a></li>
+        <li><a href="#findapet">הצטרפו אלינו</a></li>
+    </ul>
+    <div dir="rtl">
+        <p>© 2018 כל הזכויות שמורות ל-The Pet House - עמותת המתנדבים למען בעלי החיים</p>
+    </div>
+</footer>
+</body>
+</html>

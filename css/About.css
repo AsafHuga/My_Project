@@ -1,0 +1,18 @@
+@import url("index.css");
+
+#About {
+    direction: rtl;
+    font-size: 14pt;
+    text-align: right;
+    position: center;
+    margin: auto;
+    width: 50%;
+    line-height: 30px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 230%;
+    color: #283f8b;
+    font-family: Calibri, sans-serif;
+}

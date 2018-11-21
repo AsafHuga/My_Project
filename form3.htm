@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="he">
+    <head>
+        <meta charset="UTF-8">
+        <title>טופס אימוץ</title>
+        <link rel="icon" type="image/png" href="img/ICON.png" sizes="16x16">
+        <link rel="stylesheet" type="text/css" href="css/form3.css">
+    </head>
+    <body >
+    <header>
+        <img src="img/TPH-LOGO3.png" class="social">
+        <ul>
+            <li><a href="#home" class="home">ראשי</a></li>
+            <li><a href="About.html">אודות</a></li>
+            <li><a href="adoptlist.html">אמץ בעל חיים</a></li>
+            <li><a href="AdoptionDay.html">התנדבות קרובה</a></li>
+            <li><a href="Register.html">הרשמה לאתר</a></li>
+            <li><a href="Delivery.html">מסירת בעל חיים לאימוץ</a></li>
+            <li><a href="Tips.html">הטיפים שלנו</a></li>
+        </ul>
+    </header>
+    <main>
+        <img src="img/FORM3_1.png" class="adoptimg">
+        <h3>שם בעל החיים: תומר התוכי</h3>
+        <h3>מס' סידורי: 56671</h3>
+        <br>
+        <form method="POST" action="adoptform.php" enctype="">
+            <table align="center" dir="rtl">
+                <legend>אנא מלאו פרטים מדויקים ומלאים ונחזור אליכם בהקדם</legend>
+                <tr>
+                    <td align="right">
+                        <label>היכן יגור בעל החיים? <span style="color: #F67B29; font-size: 18px;">*</span></label>
+                    </td>
+                    <td>
+                        <input type="text" name="living" required >
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label>האם יש בבית חיות מחמד נוספות? <span style="color: #F67B29; font-size: 18px;">*</span></label>
+                    </td>
+                    <td align="center">
+                        <label class="radio-inline"><input type="radio" class="radio-inline" name="pets" value="yes" checked> כן</label>
+                        <label class="radio-inline"><input type="radio" class="radio-inline" name="pets" value="no">לא </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label>אם כן, פרט: <span style="color: #F67B29; font-size: 18px;"></span></label>
+                    </td>
+                    <td>
+                        <textarea rows="4" cols="47" placeholder="אנא פרט כמה בעלי חיים, איזה ופרטים עליהם"size="100px"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label>נסיון בגידול חיות: <span style="color: #F67B29; font-size: 18px;"></span></label>
+                    </td>
+                    <td>
+                        <textarea rows="4" cols="47" placeholder="אנא פרט על בעלי החיים שגדלת, במידה ולא ציין זאת" size="100px"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label> כמה אנשים חיים בבית?<span style="color: #F67B29; font-size: 18px;">*</span></label>
+                    </td>
+                    <td>
+                        <input type="number" class="people"  min="1" max="10" value="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <label for="submit"></label>
+                        <button type="submit" class="adpbtn">שלח בקשה</button>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </main>
+    <footer>
+        <ul class="bottom" dir="rtl">
+            <li><a href="About.html">מי אנחנו?</a></li>
+            <li><a href="#home">צרו קשר</a></li>
+            <li><a href="#findapet">שיתופי פעולה</a></li>
+            <li><a href="#findapet">הצטרפו אלינו</a></li>
+        </ul>
+        <div dir="rtl">
+            <p class="bottomP">© 2018 כל הזכויות שמורות ל-The Pet House - עמותת המתנדבים למען בעלי החיים</p>
+        </div>
+    </footer>
+    </body>
+</html>

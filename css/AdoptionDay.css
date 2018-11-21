@@ -1,0 +1,45 @@
+@import url(Index.css);
+
+.topPic {
+    width: auto;
+}
+
+main{
+    height: 1000px;
+}
+
+.adoption {
+    direction: rtl;
+    font-size: 12pt;
+    text-align: right;
+    position: center;
+    margin: auto;
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+
+}
+
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 280%;
+    color: #283f8b;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: black;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

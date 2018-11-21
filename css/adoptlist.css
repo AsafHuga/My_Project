@@ -1,0 +1,251 @@
+@import url("index.css");
+
+    body{
+
+
+    }
+    .searchbtn {
+        background-color: #000000;
+        font-family: Calibri, sans-serif;
+        font-size: medium;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 53px;
+        opacity: 0.75;
+        width: 250px;
+        display: inline-block;
+    }
+
+    .morebtn {
+        display: inline-block;
+        background-color: #F67B29;
+        font-family: Calibri, sans-serif;
+        font-size: medium;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 53px;
+        opacity: 0.75;
+        width: 250px;
+        text-align: center;
+        margin: 300px;
+        margin-top: 10px;
+    }
+
+
+
+    section{
+        display: inline-block;
+        width: 1060px;
+
+    }
+
+    aside{
+        display: inline-block;
+    }
+
+    table{
+        display: inline-block;
+        height: 450px;
+    }
+
+    select{
+        width: 170px;
+        border-radius: 20px;
+        height: 25px;
+    }
+
+    td{
+        height: 30px;
+    }
+
+    h3{
+        position: relative;
+        right: 30%;
+    }
+
+    .animallink:link, .animallink:visited {
+        background-color: #526ded;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+        width: 150px;
+
+    }
+
+    .animallink:hover, .animallink:visited{
+        background-color: #7194ed;
+    }
+
+    .searchbox{
+        background: cadetblue;
+        width: 260px;
+        height: 500px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .column{
+        float: right;
+        width: 25.33%;
+        padding: 2px;
+
+    }
+
+    .row{
+        content: "";
+        clear: both;
+        display: table;
+
+    }
+
+    .container-tomer, .container-hamus{
+        position: relative;
+        width: 100%;
+
+
+    }
+
+    .hamus, .tomer{
+        opacity: 1;
+        display: inline-block;
+        width: 100%;
+        height: 220px;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+
+
+    }
+
+    .middle{
+        position: relative;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        width: 200px;
+
+
+    }
+
+    .container-hamus:hover .hamus, .container-tomer:hover .tomer{
+        opacity: 0.3;
+    }
+
+    .container-hamus:hover .middle, .container-tomer:hover .middle{
+        opacity: 1;
+    }
+
+    .text-tomer, .text-hamus {
+        background-color: transparent;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+        position: relative;
+    }
+
+    .animalslist{
+        list-style-type: none;
+        background-color: #f8f8ff;
+        opacity: 0.85;
+        overflow: auto;
+        margin: 0;
+        left: 50%;
+
+    }
+
+    .alist{
+        width: 250px;
+        height: 220px;
+    }
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 620px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #7194ed;
+    opacity: 0.85;
+    overflow: auto;
+    margin: 0;
+    left: 50%;
+}
+
+
+li {
+    float: right;
+    width: 170px;
+}
+
+li a.home {
+    background-color: #4e55ed;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    background-color: #7194ed;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+}
+
+li a:hover {
+    background-color: #526ded;
+}
+
+main {
+    background-color: #f8f8ff;
+    font-family: Calibri Light, sans-serif;
+    font-weight: bold;
+    height: 700px;
+}
+
+footer {
+    height: 250px;
+    background: rgba(197, 195, 199, 0.29);
+    text-align: center;
+    position: relative;
+    background-image: url("../img/TPHF.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.bottomP {
+    font-family: Calibri Light, sans-serif;
+    bottom: 0;
+    right: 37%;
+    margin: 0;
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
